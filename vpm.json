@@ -1,28 +1,72 @@
 {
-    "name":"Example Listing",
-    "id":"com.vrchat.example-listing",
-    "url":"https://hoshinolabs-vrchat.github.io/template-package-listing/vpm.json",
-    "author":{
-        "email":"magi.ikuko@gmail.com",
-        "name":"ikuko",
-        "url":"https://hoshinolabs.com"
-    },
-    "description":"Example listing of VRChat packages",
-    "infoLink":{
-        "url":"http://github.com/hoshinolabs-vrchat/template-package-listing",
-        "text":"View on GitHub"
-    },
-    "bannerUrl":"banner.png",
-    "githubRepos":[
-        "vrchat-community/clientsim"
-    ],
-    "packages":[
-        {
-            "name":"com.vrchat.udonsharp",
-            "releases":[
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.7/com.vrchat.UdonSharp.zip",
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.6/com.vrchat.UdonSharp-1.1.6.zip"
-            ]
+  "name": "I21I",
+  "id": "jp.21csx.vpm",
+  "author": {
+    "name": "二十一世紀症候群",
+    "url": "https://l21l.booth.pm/"
+  },
+  "url": "https://i21i.github.io/vpm-repos/vpm.json",
+  "description":"二十一世紀症候群のVRChatツール",
+  "githubRepos":[
+      "I21I/AAOMergeHelper"
+  ],
+  "packages": {
+    "jp.21csx.aao-merge-helper": {
+      "versions": {
+        "1.0.4": {
+          "name": "jp.21csx.aao-merge-helper",
+          "displayName": "(21)'s AAO Merge Helper",
+          "description": "AAOのMergeSkinnedMesh, MergePhysBoneを簡単に設定できるツール",
+          "version": "1.0.4",
+          "unity": "2022.3",
+          "unityRelease": "22f1",
+          "author": {
+            "name": "二十一世紀症候群",
+            "url": "https://l21l.booth.pm/"
+          },
+          "documentationUrl": "https://i21i.github.io/AAOMergeHelper/",
+          "vpmDependencies": {
+            "com.anatawa12.avatar-optimizer": ">=1.8.10"
+          },
+          "url": "https://github.com/I21I/AAOMergeHelper/releases/download/v1.0.4/jp.21csx.aao-merge-helper-1.0.4.zip",
+          "zipSHA256": ""
+        },
+        "1.0.3": {
+          "name": "jp.21csx.aao-merge-helper",
+          "displayName": "(21)'s AAO Merge Helper",
+          "description": "AAOのMergeSkinnedMesh, MergePhysBoneを簡単に設定できるツール",
+          "version": "1.0.3",
+          "unity": "2022.3",
+          "unityRelease": "22f1",
+          "author": {
+            "name": "二十一世紀症候群",
+            "url": "https://l21l.booth.pm/"
+          },
+          "documentationUrl": "https://i21i.github.io/AAOMergeHelper/",
+          "vpmDependencies": {
+            "com.anatawa12.avatar-optimizer": ">=1.8.10"
+          },
+          "url": "https://github.com/I21I/AAOMergeHelper/releases/download/v1.0.3/jp.21csx.aao-merge-helper-1.0.3.zip",
+          "zipSHA256": "F86795B9E3CD6C604F188E68C63098A94908964893AE0D3BF79D83123A02DEDC"
+        },
+        "1.0.2": {
+          "name": "jp.21csx.aao-merge-helper",
+          "displayName": "(21)'s AAO Merge Helper",
+          "description": "AAOのMergeSkinnedMesh, MergePhysBoneを簡単に設定できるツール",
+          "version": "1.0.2",
+          "unity": "2022.3",
+          "author": {
+            "name": "二十一世紀症候群",
+            "url": "https://l21l.booth.pm/"
+          },
+          "documentationUrl": "https://i21i.github.io/AAOMergeHelper/",
+          "vpmDependencies": {
+            "com.anatawa12.avatar-optimizer": ">=1.8.10"
+          },
+          "url": "https://github.com/I21I/AAOMergeHelper/releases/download/v1.0.2/jp.21csx.aao-merge-helper-1.0.2.zip",
+          "zipSHA256": "A3882D8DDBF75D19E98C2208C2216BE5E1E5F796AABABD48259D5A1D0199EF7F"
         }
-    ]
+      }
+    }
+  }
 }
